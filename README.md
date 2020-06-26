@@ -1,2 +1,2 @@
-# simple-recaptcha-login
-Simple login form using reCAPTCHA validation
+# Simple reCAPTCHA login
+A simple login form in PHP using reCAPTCHA validation
