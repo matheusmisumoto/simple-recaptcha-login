@@ -30,23 +30,23 @@
 <?php
     if($msg == true){ ?>
         <section id="error">
-            <p><? echo $msg; ?></p>
+            <p><?php echo $msg; ?></p>
         </section>
-<?
+<?php
     }
 ?>
         <main>
-            <form action="<? echo $_SERVER['PHP_SELF']; ?>" method="POST">
+            <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST">
                 <label for="username">Username: </label>
                 <input type="text" name="username" id="username">
                 <label for="password">Password: </label>
                 <input type="password" name="password" id="password">
-                <div class="g-recaptcha" data-sitekey="<? echo $publicKey; ?>"></div>
+                <div class="g-recaptcha" data-sitekey="<?php echo $publicKey; ?>"></div>
                 <input type="submit" value="Submit">
             </form>
         </main>
         <footer>
-            <p>Developed by <a href="https://matheusmisumoto.jor.br/" target="_blank">Matheus Misumoto</a></p>
+            <p>Developed by <a href="https://matheusmisumoto.dev/" target="_blank">Matheus Misumoto</a></p>
         </footer>
     </body>
 </html>

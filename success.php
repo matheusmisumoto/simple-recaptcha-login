@@ -18,7 +18,7 @@
             <h1>You are logged in!</h1>
         </header>
         <footer>
-            <p>Developed by <a href="https://matheusmisumoto.jor.br/" target="_blank">Matheus Misumoto</a></p>
+            <p>Developed by <a href="https://matheusmisumoto.dev/" target="_blank">Matheus Misumoto</a></p>
         </footer>
     </body>
 </html>
